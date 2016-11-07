@@ -106,9 +106,10 @@ body {
 
 
 /*
- * jisu: 따로 추가, 이미지 파일 업로드
+ * jisu: 따로 추가
  */
 
+/* 이미지 업로드 */
 .uploader {
     position:relative;
     overflow:hidden;
@@ -138,4 +139,26 @@ body {
     left:-1px;
     z-index:1;
     border:none;
+}
+
+/* 상세보기 */
+table td:nth-child(2) > p{
+    color: #3864b4;
+}
+
+/* 네비게이션바 */
+#navleft {
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    color: #F05F40;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    height: 50px;
+    padding: 15px 15px;
+    cursor: pointer;
+}
+
+/* 평점 */
+progress {
+    width: 110px;
 }
